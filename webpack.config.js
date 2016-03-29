@@ -3,7 +3,8 @@ var electronPublicApi = [
     // for modules which use deprecated api
     // modules are taken from https://github.com/atom/electron/tree/master/docs/api
     'app',
-    'screen'
+    'screen',
+    'global-shortcut'
 
     // Uncomment as needed if some external module uses the deprecated api
 
@@ -20,7 +21,6 @@ var electronPublicApi = [
     // 'environment-variables',
     // 'file-object',
     // 'frameless-window',
-    // 'global-shortcut',
     // 'ipc-main',
     // 'ipc-renderer',
     // 'menu-item',
